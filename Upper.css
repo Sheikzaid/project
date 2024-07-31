@@ -1,0 +1,34 @@
+.upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.upper_icon{
+  margin-right: 10px;
+}
+.upper-logo{
+  margin-left: 20px;
+}
+.upperinput_icon{
+  width: 50px !important;
+  background-color: aliceblue;
+  border-left: 1px solid lightgray;
+}
+.upper_input{
+  display: flex;
+  align-items: center;
+  width: 15%;
+  border: 1px solid black;
+}
+.upper_right{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.searchPage{
+  
+ /* Ensures items are stacked vertically */
+  flex: 0.8; /* Flex-grow to occupy space */
+  padding: 20px 20px;
+  
+}
+.searchPage_filter {
+  display: flex;
+  align-items: center; /* Centers icon vertically */
+font-size: xx-small !important; /* Adds spacing below the filter icon */
+}
+.searchPage > hr{
+  height: 1px;
+  border: 0;
+  background-color: lightgrey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
